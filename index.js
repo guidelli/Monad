@@ -1,7 +1,7 @@
 // run `node index.js` in the terminal
 import fs from 'fs'
-import {Eithe} from './either.js'
-import {I} from './io.js'
+import {Either} from './either.js'
+import {IO} from './io.js'
 console.log(`Hello Node.js v${process.versions.node}!`);
 const readFile = (filename) =>
   new IO(() => {
