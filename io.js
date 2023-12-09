@@ -34,3 +34,4 @@ class IO {
       return this.effect();
     }
   }
+  export {IO}
