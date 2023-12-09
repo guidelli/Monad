@@ -1,5 +1,5 @@
 class Either {
-  
+
   // The static of() method creates a new instance of Right with the given value.
   static of(value) {
     return new Right(value);
@@ -38,3 +38,4 @@ class Right extends Either {
     return fn(this.value);
   }
 }
+export { Either }
